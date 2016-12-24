@@ -2,7 +2,7 @@
 
 This project uses an Esp8266 running node mcu firmare interfeced with an RFID reader in order to keep attendance in a database which is rendered human readable as a website.
 
-![Screenshot](/imgs/pic1.jpg)
+![Screenshot](/imgs/pic1.JPG)
 
 ### How It Works
 
