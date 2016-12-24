@@ -13,7 +13,7 @@ The data that it sends is a unique hexidecimal code. these codes all refrence on
 
 The microcontroller makes a GET request witch uses a php file to make some sql quereys to a server, these quereys chech someone in if they were previously checked out, or vise versa. If the RFID's unique ID is not in the system under a name, there is another page on the website where somone can assign names to tage.
 
-The software that is running on the device is written by me but the source is on a computer i don't currently have access too as im am out of the country, i will update this repository for that code when i return, hopefully for now this fideo will suffice.
+The software that is running on the device is written by me but the source is on a computer I don't currently have access too as I am out of the country currently. I will update this repository with that code when I return, hopefully for now this video will suffice.
 
 
 [Video Demo](https://youtu.be/Jm5qqMDZw0A)
