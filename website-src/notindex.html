@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    
+
+    <link rel="stylesheet" href="style-code.css">
+    <style>
+        html { 
+  background: url(bgimages/home.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}</style>
+    
+  
+<body>
+
+<ul class="topnav" id="myTopnav">
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="guestbookfront.php">Guest Book</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="http://www.cnn.com">About</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  </li>
+</ul>
+
+    <div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  The way you interact with this web page is being recorded in order to analyze and improve.
+</div>
+    
+    <div style="padding-left:16px">
+    
+    
+    
+    
+    <h1>
+            <img class="headshot" src="bgimages/headshot.JPG" alt="HTML5 Icon" >
+            </h1>
+    
+ 
+</div>
+    
+<div style="padding-left:16px">
+    
+    
+    <h2><span>Franklin Boswell<span class='spacer'></span><br /><span class='spacer'></span>Portfolio</span></h2>
+    
+    
+    
+ 
+</div>
+
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+    
+    
+    
+$(document).ready(function(){
+   setTimeout(function () {
+       $("div.alert").fadeOut("slow");
+    }, 2000);
+    
+    
+});
+    
+    
+
+
+
+
+
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+function goodbye(e) {
+    if(!e) e = window.event;
+    //e.cancelBubble is supported by IE - this will kill the bubbling process.
+    e.cancelBubble = true;
+    e.returnValue = 'You sure you want to leave?'; //This is displayed on the dialog
+
+    //e.stopPropagation works in Firefox.
+    if (e.stopPropagation) {
+        e.stopPropagation();
+        e.preventDefault();
+    }
+}
+window.onbeforeunload=goodbye; 
+</script>
+
+</body>
+
+</html>
+
+
