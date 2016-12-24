@@ -11,7 +11,7 @@ When the RFID reader detects an RFID tag in the vicinity it sends some data via 
 
 The data that it sends is a unique hexidecimal code. these codes all refrence one person on the server.
 
-The microcontroller makes a GET request witch uses a php file to make some sql quereys to a server, these quereys chech someone in if they were previously checked out, or vise versa. If the RFID's unique ID is not in the system under a name, there is another page on the website where somone can assign names to tage.
+The microcontroller makes a GET request witch uses a php file to make some sql quereys to a server, these quereys chech someone in if they were previously checked out, or vise versa. If the RFID's unique ID is not in the system under a name, there is another page on the website where somone can assign names to tag.
 
 The software that is running on the device is written by me but the source is on a computer I don't currently have access too as I am out of the country currently. I will update this repository with that code when I return, hopefully for now this video will suffice.
 
